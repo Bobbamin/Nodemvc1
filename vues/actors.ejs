@@ -1,0 +1,11 @@
+<%- include ('partials/header.ejs') %>
+
+<h1>Acteurs</h1>
+
+<% actors.forEach((act) => { %>
+    <%= act.firstname %>&nbsp;
+    <%= act.lastname %><br>
+    <% }) %>
+
+
+<%- include ('partials/footer.ejs') %>
